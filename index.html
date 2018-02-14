@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>halaman vidha</title>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=typewriter">
+<style>
+body,h1,h2{font-family: "Typewriter", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url("/w3images/wedding_couple.jpg")}
+.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+</style>
 <body>
-<h1>Tentang saya</h1>
-<p>nama saya adalah Aprilia Vidha Lestari, saya lahir di Bekasi pada tanggal 17 April 2001. Saya adalah anak pertama dari 1 bersaudara</p>
-<h2>Pendidikan</h2>
-<p>Saya sekarang bersekolah di <strong>SMK-SMAK Bogor</strong> dengan kompetensi kejuruan <em>Analis Kimia</em> yang berlokasi di Jalan Binamarga 1 kota Bogor</p>
-<h2>Hobi</h2>
-<p>Saya mempunyai hobi mendengarkan musik dan stalking di Instagram. saya suka memasak dan saya juga suka tidur</p>
-<img src="img/candy.jpeg" alt="Ini foto saya 7 tahun kedepan" widht="180px" height="250px">
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white w3-center">
+    <h1 class="w3-jumbo">HELLO!</h1>
+    <h2>Aprilia Vidha Lestari</h2>
+  </div>
+</header>
+
+
+<!-- About Me -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-blue"><b>About Me</b></h1>
+    <img class="w3-round w3-greyscale-min" src="/w3images/wedding_couple2.jpg" style="width:100%;margin:32px 0">
+    <p><i>Hellow semua, kenalin nama saya adalah Aprilia Vidha Lestari. Saya biasa dipanggil vidha,pidha,pida,pitdah,princess juga boleh hehehe. Saya lahir di Bekasi pada tanggal 17 April 2001 pukul 02:10. Umur saya sekarang 16 tahun, dan tahun ini saya genap 17 tahun hehe legal deh. Saya adalah anak sulung dari 2 bersaudara. Saya tinggal di Bekasi, tapi saat ini saya kos di Bogor. Saat ini saya kelas 2 di SMK - SMAK Bogor (2018) dengan kompetensi kejuruan 'Analis Kimia' yang berlokasi di Jalan Binamarga I, Ciheuleut, Baranangsiang, Bogor Timur, Kota Bogor, Jawa Barat 16143. Saya senang sekolah di SMAKBO ini karna saya merasakan jati diri saya yang sebenarnya (anjai).  </i>
+   
+<!-- MY HOBBIES -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-green"><b>My Hobbies</b></h1>
+    <img class="w3-round w3-greyscale-min" src="/w3images/wedding_couple2.jpg" style="width:100%;margin:35px 0">
+    <p><i> Hobi saya adalah makan. Saya merasa makan adalah salah satu cara untuk menghilangkan stress. Tetapi, kalo saya kebanyakan makan,berat badan saya pun akan bertambah, jadi ga goals lagi. Sebenarnya seseorang itu gendut bukan karna kebanyakan makan, tetapi terkadang seseorang itu lupa kalau ia sudah makan.
+    
+    <p><i> Hobi saya yang lainnya adalah mendengarkan musik, kadang dengan mendengarkan musik saya bisa menghilangkan sedikit penat.
+    Traveling, saya sangat suka jalan-jalan untuk melihat dan mensyukuri segala keindahan alam semesta yang telah diberikan oleh yang Maha Kuasa
+    Menonton Film, saya juga suka menonton film. Tapi mau nontonnya yang gratisan aja hehe, jadilah nontonnya di LayarKa** 21 atau ga di B*oskop168 bareng temen - temen. Saya sebenarnya takut film Horor tapi kadang suka tertantang jadi kalo nonton film Horor pas ada adegan yang serem suka reflek tutup mata sambil teriak kenceng gitu wkwk (tijel ya)
+  </div>
+
+<!-- My Goals -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-orange"><b>My Goals</b></h1>
+    <img class="w3-round w3-greyscale-min" src="/w3images/wedding_couple2.jpg" style="width:100%;margin:35px 0">
+    <p><i> Tujuan utama saya adalah bisa membahagiakan kedua orang tua saya dan bisa memberangkatkan Haji dan Umroh kedua orang tua saya. Saya ingin membalas semua jasa - jasa kedua orang tua syaa dengan uang hasil jeripayah saya sendiri. Tujuan kedua hidup saya adalah ketika saya lulus dari SMAKBO saya ingin bekerja dan mencari uang lalu saya melanjutkan kejenjang pendidikan berikutnya dengan uang saya sendiri. Tujuan ketiga hidup saya adalah menjadi wanita seutuhnya, saya ingin menjadi wanita solehah yang berbakti pada suami saya kelak dan bisa menjadi ibu yang bisa mendidik anak - anak nya dengan baik sesuai ajaran agama islam.  
+    
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>Thank You!!</h1>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Press</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">What do yo think about my pages?</h1>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Interesting</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Bad</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
 </body>
 </html>
